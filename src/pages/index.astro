@@ -1,10 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import NavBar from '../components/NavBar.tsx';
 ---
 
 <Layout title="Welcome To My Blog">
 	<main>
+		<NavBar></NavBar>
+
 		<h1>Welcome to <span class="text-gradient">Derek's Website</span></h1>
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.<br />
